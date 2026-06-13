@@ -1,13 +1,16 @@
 {
   "name": "angelbob-spaceage-rebalance-compat",
   "title": "AngelBob Space Age Rebalance Compatibility Tweaks",
-  "description": "Very opiniated compatbility tweaks for the AngelBob Space Age Rebalance",
+  "description": "Very opinionated compatbility tweaks for the AngelBob Space Age Rebalance",
   "author": "QuingKhaos",
   "homepage": "",
   "version": "1.0.0",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.0",
-    "angelbob-spaceage-rebalance >= 1.0.10"
+    "angelbob-spaceage-rebalance >= 1.0.10",
+    "? bobelectronics >= 2.1.1",
+
+    "? factorissimo-2-notnotmelon >= 3.11.19"
   ]
 }

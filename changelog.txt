@@ -1,3 +1,5 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
-Date: ????
+Date: 2026-06-13
+  Changes:
+    - Make Factorissimo factory 1 and utility upgrades available from the start via trigger techs.
