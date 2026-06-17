@@ -83,4 +83,14 @@ if mods["factorissimo-2-notnotmelon"] then
       "steel-processing",
       "electric-energy-distribution-1",
   }
+
+  -- Roboport upgrade without chemical science packs
+  data.raw.technology["factory-interior-upgrade-roboport"].unit = {
+    count = 600,
+    ingredients = {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack",   1},
+    },
+    time = 45
+  }
 end
