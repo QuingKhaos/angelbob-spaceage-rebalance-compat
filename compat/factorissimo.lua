@@ -1,11 +1,11 @@
 if mods["factorissimo-2-notnotmelon"] then
-  -- Unlock factories via trigger tech
+  -- Unlock factory 1 via trigger tech
   data.raw["technology"]["factory-architecture-t1"].unit = nil
   data.raw["technology"]["factory-architecture-t1"].prerequisites = nil
   data.raw["technology"]["factory-architecture-t1"].research_trigger = {
     type = "craft-item",
     item = "stone",
-    count = 1000
+    count = 500
   }
 
   -- Configure factory upgrades as trigger techs
@@ -13,7 +13,7 @@ if mods["factorissimo-2-notnotmelon"] then
   data.raw["technology"]["factory-interior-upgrade-lights"].research_trigger = {
     type = "craft-item",
     item = "small-lamp",
-    count = 100
+    count = 10
   }
 
   data.raw["technology"]["factory-interior-upgrade-display"].unit = nil
@@ -28,7 +28,7 @@ if mods["factorissimo-2-notnotmelon"] then
   data.raw["technology"]["factory-connection-type-fluid"].research_trigger = {
     type = "craft-item",
     item = "pipe",
-    count = 100
+    count = 10
   }
 
   data.raw["technology"]["factory-connection-type-chest"].unit = nil
@@ -36,7 +36,7 @@ if mods["factorissimo-2-notnotmelon"] then
   data.raw["technology"]["factory-connection-type-chest"].research_trigger = {
     type = "craft-item",
     item = "iron-chest",
-    count = 100
+    count = 10
   }
 
   data.raw["technology"]["factory-connection-type-circuit"].unit = nil
@@ -44,7 +44,7 @@ if mods["factorissimo-2-notnotmelon"] then
   data.raw["technology"]["factory-connection-type-circuit"].research_trigger = {
     type = "craft-item",
     item = "electronic-circuit",
-    count = 100
+    count = 10
   }
 
   table.insert(data.raw["technology"]["factory-connection-type-circuit"].effects,
@@ -58,7 +58,7 @@ if mods["factorissimo-2-notnotmelon"] then
     data.raw["technology"]["factory-connection-type-circuit"].research_trigger = {
       type = "craft-item",
       item = "bob-basic-circuit-board",
-      count = 100
+      count = 10
     }
 
     -- Update recipe for circuit connector
