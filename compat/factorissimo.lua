@@ -67,4 +67,20 @@ if mods["factorissimo-2-notnotmelon"] then
       {type = "item", name = "copper-cable",            amount = 5}
     }
   end
+
+  -- Make factory 2 available as in vanilla Factorissimo
+  data.raw.technology["factory-architecture-t2"].unit = {
+    count = 600,
+    ingredients = {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack",   1},
+    },
+    time = 45
+  }
+
+  data.raw.technology["factory-architecture-t2"].prerequisites = {
+      "factory-architecture-t1",
+      "steel-processing",
+      "electric-energy-distribution-1",
+  }
 end
