@@ -93,4 +93,19 @@ if mods["factorissimo-2-notnotmelon"] then
     },
     time = 45
   }
+
+  -- Heat pipe upgrade costs as in vanilla Factorissimo
+  data.raw.technology["factory-connection-type-heat"].unit = {
+    count = 600,
+    ingredients = {
+        {"automation-science-pack", 1},
+        {"logistic-science-pack",   1},
+    },
+    time = 45
+  }
+
+  data.raw.technology["factory-connection-type-heat"].prerequisites = {
+      "factory-architecture-t2",
+      "bob-heat-pipe-1",
+  }
 end
