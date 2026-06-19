@@ -4,13 +4,14 @@
   "description": "Very opinionated compatbility tweaks for the AngelBob Space Age Rebalance",
   "author": "QuingKhaos",
   "homepage": "",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.0",
     "angelbob-spaceage-rebalance >= 1.0.10",
     "? bobelectronics >= 2.1.1",
 
+    "? compaktcircuit >= 2.0.28",
     "? factorissimo-2-notnotmelon >= 3.11.19"
   ]
 }

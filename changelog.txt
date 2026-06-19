@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2026-06-19
+  Changes:
+    - Remove chemical science pack from compact circuits research and make the recipe affordable with more basic ingredients.
+---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 2026-06-17
   Balancing:
