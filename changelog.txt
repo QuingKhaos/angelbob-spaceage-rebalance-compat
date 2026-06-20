@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.4.0
+Date: 2026-06-20
+  Changes:
+    - Temporarily patch petrochem wagons air resistance until angelsaddons-mobility#1310 is fixed.
+---------------------------------------------------------------------------------------------------
 Version: 1.3.0
 Date: 2026-06-20
   Changes:
