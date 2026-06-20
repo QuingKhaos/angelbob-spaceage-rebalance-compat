@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.3.0
+Date: 2026-06-20
+  Changes:
+    - Get Factorissimo base factory pump speed back to 12000/s, somehow it was overwritten to 1200/s - probably by Angel's or Bob's mods.
+---------------------------------------------------------------------------------------------------
 Version: 1.2.0
 Date: 2026-06-19
   Changes:

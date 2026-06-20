@@ -108,4 +108,25 @@ if mods["factorissimo-2-notnotmelon"] then
       "factory-architecture-t2",
       "bob-heat-pipe-1",
   }
+
+  -- Fix factory pump speed back to original speed from Factorissimo
+  local highest_quality_level = 0
+  for _, quality in pairs(data.raw.quality) do
+      if quality.level > highest_quality_level then highest_quality_level = quality.level end
+  end
+
+  local pumping_speed = data.raw["pump"]["pump"].pumping_speed * 10
+  local pumping_speed_with_quality = pumping_speed * (1 + highest_quality_level * 0.3)
+
+  data.raw["pump"]["factory-inside-pump-input"].fluid_box.volume = pumping_speed_with_quality
+  data.raw["pump"]["factory-inside-pump-input"].pumping_speed = pumping_speed
+
+  data.raw["pump"]["factory-inside-pump-output"].fluid_box.volume = pumping_speed_with_quality
+  data.raw["pump"]["factory-inside-pump-output"].pumping_speed = pumping_speed
+
+  data.raw["pump"]["factory-outside-pump-input"].fluid_box.volume = pumping_speed_with_quality
+  data.raw["pump"]["factory-outside-pump-input"].pumping_speed = pumping_speed
+
+  data.raw["pump"]["factory-outside-pump-output"].fluid_box.volume = pumping_speed_with_quality
+  data.raw["pump"]["factory-outside-pump-output"].pumping_speed = pumping_speed
 end
