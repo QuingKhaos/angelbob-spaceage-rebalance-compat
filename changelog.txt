@@ -4,6 +4,7 @@ Date: 2026-06-27
   Changes:
     - Make all standard logistic chests available with logistic science pack.
     - Make Angel's logistic silos and warehouses available with chemical science pack already.
+    - Temporarily port petrochem wagons capacity buff until angelsaddons-mobility#1287 is released.
 ---------------------------------------------------------------------------------------------------
 Version: 1.4.0
 Date: 2026-06-20

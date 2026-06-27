@@ -5,5 +5,8 @@ if mods["angelsaddons-mobility"] then
 
     data.raw["fluid-wagon"]["angels-petro-gas-wagon" .. suffix].air_resistance = 0.01 / multiplier
     data.raw["fluid-wagon"]["angels-petro-oil-wagon" .. suffix].air_resistance = 0.01 / multiplier
+
+    data.raw["fluid-wagon"]["angels-petro-gas-wagon" .. suffix].capacity = math.floor(80000 * i)
+    data.raw["fluid-wagon"]["angels-petro-oil-wagon" .. suffix].capacity = math.floor(80000 * i)
   end
 end
