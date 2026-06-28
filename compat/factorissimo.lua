@@ -115,7 +115,7 @@ if mods["factorissimo-2-notnotmelon"] then
       if quality.level > highest_quality_level then highest_quality_level = quality.level end
   end
 
-  local pumping_speed = data.raw["pump"]["pump"].pumping_speed * 10
+  local pumping_speed = 200
   local pumping_speed_with_quality = pumping_speed * (1 + highest_quality_level * 0.3)
 
   data.raw["pump"]["factory-inside-pump-input"].fluid_box.volume = pumping_speed_with_quality
