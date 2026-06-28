@@ -4,6 +4,7 @@ Date: 2026-06-28
   Changes:
     - Massively buff ground water bore to have the same pumping speed as the offshore pump.
     - Make lane balancer recipes use similar resources as the same tier splitter.
+    - Rename hyper balancer to ultimate balancer to match the naming of Bob's logistic tiers.
   Compatibility:
     - Mark as incompatible with Fast & Fluidious, which overrides all pump speeds to 1200/s. Factorissimo pump speed fix remains, as something is still halving the factory pump speed.
 ---------------------------------------------------------------------------------------------------
