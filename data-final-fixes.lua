@@ -1,4 +1,5 @@
 require("compat.angelsaddons-mobility")
+require("compat.angelsrefining")
 require("compat.compaktcircuit")
 require("compat.factorissimo")
 require("compat.logistic-chests")

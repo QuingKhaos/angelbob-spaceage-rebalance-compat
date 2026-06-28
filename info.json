@@ -9,6 +9,7 @@
   "dependencies": [
     "base >= 2.0.0",
     "angelbob-spaceage-rebalance >= 1.0.10",
+    "angelsrefining >= 2.0.4",
     "? angelsaddons-mobility >= 2.0.1",
     "? bobelectronics >= 2.1.1",
 

@@ -1,6 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.6.0
 Date: 2026-06-28
+  Changes:
+    - Massively buff ground water bore to have the same pumping speed as the offshore pump.
   Compatibility:
     - Mark as incompatible with Fast & Fluidious, which overrides all pump speeds to 1200/s. Factorissimo pump speed fix remains, as something is still halving the factory pump speed.
 ---------------------------------------------------------------------------------------------------
