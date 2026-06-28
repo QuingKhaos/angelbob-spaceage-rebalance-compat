@@ -7,6 +7,8 @@ Date: 2026-06-28
     - Rename hyper balancer to ultimate balancer to match the naming of Bob's logistic tiers.
   Compatibility:
     - Mark as incompatible with Fast & Fluidious, which overrides all pump speeds to 1200/s. Factorissimo pump speed fix remains, as something is still halving the factory pump speed.
+  Features:
+    - Add lane balancer for Bob's basic belt.
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.0
 Date: 2026-06-27
